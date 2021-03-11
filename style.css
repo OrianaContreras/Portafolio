@@ -1,0 +1,69 @@
+body {
+    background: #C9FFBF;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #FFAFBD, #C9FFBF);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #FFAFBD, #C9FFBF); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    
+}
+
+.imgRedonda {
+    width:95px;
+    height:95px;
+    border-radius:50px;
+    border:2px solid rgb(0, 0, 0);
+}
+
+h1{
+    margin-right: auto;
+    margin-left: auto;
+    align-items: center;
+}
+
+header {
+    background-color: rgb(232, 255, 127);
+    width: 1024px ;
+    height:100px ;
+    border: solid 1px black;
+    display: flex;
+    align-items: center ;
+    margin-right: auto;
+    margin-left: auto;
+
+}
+
+main {
+    width: 700px ;
+    height: 700px;
+    border: solid 1px black;
+    box-sizing: border-box;
+    margin-left: auto;
+
+}
+
+aside {
+    width: 324px ;
+    height: 700px;
+    border: solid 1px black;
+    box-sizing: border-box;
+    margin-right: auto;
+
+}
+
+footer{
+    background-color: rgb(232, 255, 127);
+    width: 1024px ;
+    height:100px ;
+    border: solid 1px black;
+    display: flex;
+    margin-right: auto;
+    margin-left: auto;
+    
+}
+
+img {
+    width: 95px;
+    margin-left: 1px;
+}
+
+div{
+    display: flex;
+}
