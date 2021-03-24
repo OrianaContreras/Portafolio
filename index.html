@@ -1,23 +1,103 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Proyecto 1</title>
-    <link rel="stylesheet" href="style.css">
-    
-</head>
-
-<body>
-    <header>
-        <img src='img/89973.jpg' class='imgRedonda' />
-        <h1> Oriana Contreras </h1>
-    </header>
-    <div>
-    <main></main>
-    <aside></aside>
-    </div>
-    <footer></footer>
-</body>
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Mi Portafolio</title>
+        <link rel="stylesheet" href="styles/css/style.css">
+        <link rel="shortcut icon" href="assets/img/Verde Azulado Minimalista Viaje Logotipo.ico" type="image/x-icon">
+    </head>
+    <body>
+        <header class="banner">
+            <img src="assets/img/oriana2.jpg" class='imgRedonda' alt="Foto de Oriana Contreras intelectual" width="95px">
+            <h1 class="title principal">Mi Portafolio</h1>
+            <nav class="aboutme">
+                <a class="a1" href="#articulos">Acerca de mi</a>
+                <a class="a2" href="#proyectos">Proyectos</a>
+                <a class="a3" href="#contacto">Contactame</a>
+            </nav>
+        </header>
+        <main>
+            <section id="articulos">
+                <header>
+                    <h2 class="title">Quién Soy?</h2>
+                </header>
+                <article>
+                    <header>
+                        <h3>Hola! Mi nombre es Oriana Contreras</h3>
+                    </header>
+                    <p>Soy una joven Venezolana de 23 años que desde niña le han atraído los computadores, la que enseñaba a sus abuelos a adentrarse en el mundo de la tecnología.</p>
+                    <p>Cuando emigré sabía que tenía que empezar de 0 (cero) y aun así tomé la decisión de hacerlo, después de trabajar varios años y establecerme en Chile, me di cuenta de que ya tenía cierta seguridad para poder seguir estudiando, por lo que empecé a hacer cursos de programación algo que siempre me llamó la atención y una vez adentro no quise dejarlo, solo quede con ganas de seguir aprendiendo mucho más.</p>
+                    <p>Actualmente me manejo en JAVA y próximamente me graduaré de un bootcamp como Developer Frontend Trainee en Talento Digital.</p>
+                    <figure class="imgs">
+                        <img class="img3" src="assets/img/Verde Azulado Minimalista Viaje Logotipo.png" alt="Imagen de mi logo es una ventana de un IDE en colores pasteles rosa, lavanda y verde menta mostrando las iniciales O A C M dentro de un diple " width="300px"/>
+                    </figure>
+                    <footer>
+                        <h4><strong>Mi logo</strong></h4>
+                    </footer>
+                </article>
+                <h2 class="title" id="proyectos">Mis Proyectos</h2>
+                <article>
+                    <header>
+                        <h3>Lista de tareas pendientes (TODO LIST)</h3>
+                        <hr>
+                    </header>
+                    <p> Su función principal es hacer una lista de cosas o tareas pendientes, la cual te permite eliminar después de haberlas realizado.</p>
+                    <figure class="imgs">
+                        <img class="img1" width="100%" src="assets/img/todoList.PNG" alt="Imagen del Proyecto TodoList " width="366px"/>
+                    </figure>
+                    <footer>
+                        <h4><strong> Creado con JS y CSS</strong></h4>
+                    </footer>
+                </article>
+                <article>
+                    <header>
+                        <h3>Memory game</h3>
+                        <hr>
+                    </header>
+                    <p>En las actividades de juego de memoria se tienen que ir descubriendo parejas de elementos iguales o relacionados entre ellos, que se encuentran escondidos. En cada tirada se destapan un par de piezas que se vuelven a esconder si no hacen par.</p>
+                    <p> El objetivo es destapar todas las parejas.</p>
+                    <figure class="imgs">
+                        <img class="img2" width="100%" src="assets/img/memory.PNG" alt="Imagen del juego de memoria" width="400px"/>
+                    </figure>
+                    <footer>
+                        <h4><strong> Creado con JS y CSS</strong></h4>
+                    </footer>
+                </article>
+                <footer>
+                    <button>Mostrar más</button>
+                </footer>
+            </section>
+            <aside class="barralateral">
+                <header class="headerbarralateral">
+                    <h2>También te pueden interesar otros portafolios con estos perfiles</h2> 
+                </header>
+                <nav>
+                    <ul>
+                        <li><button>Backend</button></li>
+                        <li><button>Full Stack Developer</button></li>
+                        <li><button>UX/UI</button></li>
+                    </ul>
+                </nav>
+            </aside>
+        </main>
+        <footer id="contacto" class="piedepag">
+            <h2 class="title">Contacto</h2> 
+            <ol>
+                <li>
+                    <strong><span>Ubicación: Santiago-Chile </span></strong>
+                </li>
+                <li>    
+                    <strong><span>Fono: +4656455747547</span></strong>
+                </li>
+                <li>
+                    <strong><span>Email: oriana@hfghfghgjgj.com</span></strong>
+                </li>
+                <li>
+                    <strong>Instagram: </strong><a href="http://www.instagram.com/orianacontrerasm/?hl=es-la" target="_blank">Click aquí</a>
+                </li>
+            </ol>
+        </footer>
+    </body>
 </html>
