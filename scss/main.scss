@@ -1,0 +1,8 @@
+/* THEME */
+@import 'utilities/variables', 'utilities/mixins';
+@import 'vendors/bootstrap';
+/* PRIMERO SE IMPORTAN LAS LIBRERIAS EXTERNAS LUEGO LAS PROPIAS PARA CONTAR CON NUESTRAS CONFIGURACIONES Y NO CON LAS DE TERCEROS */
+@import 'base/base', 'base/base', 'base/_fonts' , 'base/_typography';
+@import 'layout/header', 'layout/asidebar', 'layout/footer';
+@import 'components/accordion', 'components/button', 'components/enclace', 'components/form', 'components/menu';
+@import 'views/home','views/imgpages', 'views/infopages', 'views/contactus';
